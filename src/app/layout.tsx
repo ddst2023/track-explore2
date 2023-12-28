@@ -27,13 +27,13 @@ export default function RootLayout({
           j.async = true;
           j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
           f.parentNode.insertBefore(j, f);
-        })(window, document, "script", "dataLayer", "GTM-PW22HTPF")`}
+        })(window, document, "script", "dataLayer", "GTM-NZHSJ5QS")`}
       </Script>
       <body className={inter.className}>{children}</body>
       {/* <!-- Google Tag Manager (noscript) --> */}
       <noscript>
         <iframe
-          src="https://www.googletagmanager.com/ns.html?id=GTM-PW22HTPF"
+          src="https://www.googletagmanager.com/ns.html?id=GTM-NZHSJ5QS"
           height="0"
           width="0"
           style={{ display: "none", visibility: "hidden" }}
