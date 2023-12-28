@@ -2,13 +2,13 @@ export default function OrderConfirmation() {
   return (
     <div>
       <h1>ORDER CONFIRMATION</h1>
-      <body class="">
+      <body className="">
         <div id="__next" data-reactroot="">
-          <div class="theme-okl">
+          <div className="theme-okl">
             <link rel="stylesheet" href="https://use.typekit.net/oeh4dxv.css" />
-            <div class="CheckoutHeader_main__eoLHF">
-              <div class="CheckoutHeader_desktopContainerSpacing__fsRnb flex">
-                <div class="CheckoutHeader_desktopLogo__V_9AW">
+            <div className="CheckoutHeader_main__eoLHF">
+              <div className="CheckoutHeader_desktopContainerSpacing__fsRnb flex">
+                <div className="CheckoutHeader_desktopLogo__V_9AW">
                   <img
                     alt="One Kings Lane"
                     src="https://assets.onekingslane.com/m/2a3672007ee7fa59/original/OKL-logo-reg.png"
@@ -16,49 +16,50 @@ export default function OrderConfirmation() {
                 </div>
               </div>
             </div>
-            <div class="OrderConfirmation_orderConfirmationContainer__uwXvj">
+            <div className="OrderConfirmation_orderConfirmationContainer__uwXvj">
               <div>
                 <img
                   height="1"
                   width="1"
                   border="0"
                   src="https://api.bounceexchange.com/capture/convert2.gif?website_id=3212&amp;order_id=160298&amp;email=dehan@shoptoken.com&amp;amount=2887.92&amp;currency=USD&amp;goal=purchase"
-                  style="display: none"
+                  style={{ display: "none" }}
                 />
               </div>
-              <div class="OrderConfirmation_orderConfirmation__eEv1c">
-                <h2 class="h2 mb-4">
+              <div className="OrderConfirmation_orderConfirmation__eEv1c">
+                <h2 className="h2 mb-4">
                   DD, <span>thank you for your order</span>
                 </h2>
-                <p class="text-body-md-normal">
+                <p className="text-body-md-normal">
                   We’ve sent you a confirmation email with a tracking link to
                   dehan@shoptoken.com which should arrive shortly. Below you’ll
                   find the details of your order.
                 </p>
-                <div class="grid grid-cols-3 gap-x-4 gap-y-4 border-b mt-4 mb-6 pb-6">
-                  <div class="col-span-2">
-                    <div class="grid grid-cols-1 gap-x-2 gap-y-2">
-                      <p class="text-body-md-bold">
-                        Order Number: <span class="ml-1 inline">160298</span>
+                <div className="grid grid-cols-3 gap-x-4 gap-y-4 border-b mt-4 mb-6 pb-6">
+                  <div className="col-span-2">
+                    <div className="grid grid-cols-1 gap-x-2 gap-y-2">
+                      <p className="text-body-md-bold">
+                        Order Number:
+                        <span className="ml-1 inline">160298</span>
                       </p>
-                      <p class="text-body-md-bold">
-                        Customer ID: <span class="ml-1 inline">156793</span>
+                      <p className="text-body-md-bold">
+                        Customer ID: <span className="ml-1 inline">156793</span>
                       </p>
-                      <p class="text-body-md-bold">
+                      <p className="text-body-md-bold">
                         Completed On:
-                        <span class="ml-1 inline">Tue, Dec 19, 2023</span>
+                        <span className="ml-1 inline">Tue, Dec 19, 2023</span>
                       </p>
                     </div>
                   </div>
-                  <div class="col-span-1 ml-auto">
+                  <div className="col-span-1 ml-auto">
                     <button role="button">
                       <img
                         src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEzLjEyNSA0LjAwMzEzVjAuNUgyLjg3NVY0LjAwMzEzQzIuMjM0NjYgNC4wMzU5NCAxLjYzMTM0IDQuMzEzMjMgMS4xODk0NCA0Ljc3NzgxQzAuNzQ3NTM2IDUuMjQyMzkgMC41MDA3NiA1Ljg1ODgyIDAuNSA2LjVWMTIuNUgyLjYyNVYxMS41SDEuNVY2LjVDMS41MDA0NSA2LjEwMjMxIDEuNjU4NjMgNS43MjEwNCAxLjkzOTgzIDUuNDM5ODNDMi4yMjEwNCA1LjE1ODYzIDIuNjAyMzEgNS4wMDA0NSAzIDVIMTNDMTMuMzk3NyA1LjAwMDQ1IDEzLjc3OSA1LjE1ODYzIDE0LjA2MDIgNS40Mzk4M0MxNC4zNDE0IDUuNzIxMDQgMTQuNDk5NiA2LjEwMjMxIDE0LjUgNi41VjExLjVIMTMuMTI1VjEyLjVIMTUuNVY2LjVDMTUuNDk5MiA1Ljg1ODgyIDE1LjI1MjUgNS4yNDIzOSAxNC44MTA2IDQuNzc3ODFDMTQuMzY4NyA0LjMxMzIzIDEzLjc2NTMgNC4wMzU5NCAxMy4xMjUgNC4wMDMxM1pNMTIuMTI1IDRIMy44NzVWMS41SDEyLjEyNVY0WiIgZmlsbD0iYmxhY2siLz4KPHBhdGggZD0iTTEyLjM3NSA2LjI1SDEzLjM3NVY3LjI1SDEyLjM3NVY2LjI1WiIgZmlsbD0iYmxhY2siLz4KPHBhdGggZD0iTTMuNjI1IDguMjVIMi4zNzVWOS4yNUgzLjYyNVYxNS41SDEyLjEyNVY5LjI1SDEzLjM3NVY4LjI1SDMuNjI1Wk0xMS4xMjUgMTQuNUg0LjYyNVY5LjI1SDExLjEyNVYxNC41WiIgZmlsbD0iYmxhY2siLz4KPC9zdmc+Cg=="
-                        class="inline mr-2"
+                        className="inline mr-2"
                         alt="print"
                       />
                       <h3
-                        class="h3 inline font-normal align-middle"
+                        className="h3 inline font-normal align-middle"
                         role="button"
                         type="link"
                         label="print"
@@ -68,10 +69,10 @@ export default function OrderConfirmation() {
                     </button>
                   </div>
                 </div>
-                <div class="grid grid-cols-2 gap-x-4 gap-y-4 my-6 pb-6 border-b">
-                  <div class="col-span-1">
-                    <h3 class="h3 mb-4">Billing Address</h3>
-                    <p class="AddressSummary_addressContainer__NLzRk text-body-md-normal">
+                <div className="grid grid-cols-2 gap-x-4 gap-y-4 my-6 pb-6 border-b">
+                  <div className="col-span-1">
+                    <h3 className="h3 mb-4">Billing Address</h3>
+                    <p className="AddressSummary_addressContainer__NLzRk text-body-md-normal">
                       DD dd
                       <br />
                       3909 Witmer Road
@@ -79,94 +80,97 @@ export default function OrderConfirmation() {
                       Niagara Falls, NY, 14305
                     </p>
                   </div>
-                  <div class="col-span-1">
-                    <h3 class="h3 mb-4">Payment Method</h3>
-                    <p class="flex items-center text-body-md-normal">
+                  <div className="col-span-1">
+                    <h3 className="h3 mb-4">Payment Method</h3>
+                    <p className="flex items-center text-body-md-normal">
                       Credit Card
                     </p>
-                    <p class="flex items-center text-body-md-normal">
+                    <p className="flex items-center text-body-md-normal">
                       ************4242
                     </p>
                   </div>
-                  <div class="col-span-1">
-                    <h3 class="h3 mb-4">Order Status</h3>
-                    <p class="flex items-center text-body-md-normal">
+                  <div className="col-span-1">
+                    <h3 className="h3 mb-4">Order Status</h3>
+                    <p className="flex items-center text-body-md-normal">
                       Awaiting Fulfillment
                     </p>
                   </div>
                 </div>
-                <div class="grid grid-cols-1 gap-x-4 gap-y-2 border-b pb-4">
-                  <h3 class="h3">review shipping &amp; delivery</h3>
-                  <div class="grid grid-cols-1 gap-x-4 gap-y-2">
-                    <div class="col-span-1">
-                      <p class="text-body-md-normal"></p>
-                      <p class="AddressSummary_addressContainer__NLzRk text-body-md-normal">
+                <div className="grid grid-cols-1 gap-x-4 gap-y-2 border-b pb-4">
+                  <h3 className="h3">review shipping &amp; delivery</h3>
+                  <div className="grid grid-cols-1 gap-x-4 gap-y-2">
+                    <div className="col-span-1">
+                      <p className="text-body-md-normal"></p>
+                      <p className="AddressSummary_addressContainer__NLzRk text-body-md-normal">
                         DD dd, 3909 Witmer Road, Niagara Falls, NY, 14305
                       </p>
                     </div>
                   </div>
                 </div>
                 <div>
-                  <div class="grid grid-cols-1 gap-x-2 gap-y-2 py-4 border-b w-full">
-                    <h4 class="py-0 h4">
+                  <div className="grid grid-cols-1 gap-x-2 gap-y-2 py-4 border-b w-full">
+                    <h4 className="py-0 h4">
                       SHIPMENT 1 OF 1 - FURNITURE SHIPPING
                     </h4>
                   </div>
                   <div>
                     <div>
-                      <div class="flex">
-                        <div class="ItemSummary_leftSummary__HmpQS relative">
-                          <div class="ItemSummary_productImage__Dd_9Y">
+                      <div className="flex">
+                        <div className="ItemSummary_leftSummary__HmpQS relative">
+                          <div className="ItemSummary_productImage__Dd_9Y">
                             <img src="https://assets.onekingslane.com/m/8d64f02edd67d35/Product_Square-Product_NMF10437_Image_1.jpg" />
                           </div>
                         </div>
-                        <div class="w-full">
-                          <div class="flex">
-                            <div class="ItemSummary_productDetails__OjKbU">
-                              <div class="grid grid-cols-1 gap-x-4 gap-y-2">
-                                <div class="col-span-1">
+                        <div className="w-full">
+                          <div className="flex">
+                            <div className="ItemSummary_productDetails__OjKbU">
+                              <div className="grid grid-cols-1 gap-x-4 gap-y-2">
+                                <div className="col-span-1">
                                   <a
-                                    class="no-underline mb-1 underline cursor-pointer hover:text-accent-2"
+                                    className="no-underline mb-1 underline cursor-pointer hover:text-accent-2"
                                     href="/p-ogden-P77087257?sku=77087258"
                                     target="_parent"
                                   >
-                                    <p class="leading-md text-body-md-bold">
+                                    <p className="leading-md text-body-md-bold">
                                       Ogden Linen Panel Bed, Ivory - King,
                                       Ivory, Oak
                                     </p>
                                   </a>
-                                  <p class="capitalize pt-2 text-body-sm-normal">
+                                  <p className="capitalize pt-2 text-body-sm-normal">
                                     SKU - 77087258
                                   </p>
-                                  <p class="hidden md:block pt-2 text-body-sm-normal">
-                                    <span class="text-body-sm-bold"></span>
-                                    <span class="text-body-sm-bold">
+                                  <p className="hidden md:block pt-2 text-body-sm-normal">
+                                    <span className="text-body-sm-bold"></span>
+                                    <span className="text-body-sm-bold">
                                       Est. Arrival:
                                     </span>
-                                    <span class="inline-block ml-1 text-body-sm-normal">
+                                    <span className="inline-block ml-1 text-body-sm-normal">
                                       Jan 8 - Jan 23
                                     </span>
                                   </p>
-                                  <p class="md:hidden pt-2 text-body-sm-normal">
-                                    <span class="text-body-sm-bold"></span>
-                                    <span class="text-body-sm-bold">
+                                  <p className="md:hidden pt-2 text-body-sm-normal">
+                                    <span className="text-body-sm-bold"></span>
+                                    <span className="text-body-sm-bold">
                                       Est. Arrival:
                                     </span>
-                                    <span class="inline-block ml-1 text-body-sm-normal">
+                                    <span className="inline-block ml-1 text-body-sm-normal">
                                       Jan 8 - Jan 23
                                     </span>
                                   </p>
-                                  <p class="pt-2 text-body-sm-normal">
+                                  <p className="pt-2 text-body-sm-normal">
                                     This item is returnable within 30 days of
                                     delivery
                                   </p>
                                 </div>
-                                <p class="text-body-sm-normal"></p>
+                                <p className="text-body-sm-normal"></p>
                               </div>
                             </div>
-                            <div class="ItemSummary_priceSummary__FnE2N">
-                              <p class="text-body-sm-bold" data-testid="price">
-                                <span class="ItemSummary_price__NWbON pt-0">
+                            <div className="ItemSummary_priceSummary__FnE2N">
+                              <p
+                                className="text-body-sm-bold"
+                                data-testid="price"
+                              >
+                                <span className="ItemSummary_price__NWbON pt-0">
                                   $2,495.00
                                 </span>
                               </p>
@@ -175,20 +179,20 @@ export default function OrderConfirmation() {
                         </div>
                       </div>
                     </div>
-                    <div class="border-t"></div>
+                    <div className="border-t"></div>
                   </div>
-                  <div class="py-4 border-b">
+                  <div className="py-4 border-b">
                     <form role="radiogroup" aria-label="Shipment Options">
-                      <div class="grid grid-cols-12 gap-x-4 gap-y-4">
-                        <div class="col-span-9">
-                          <p class="normal-case text-body-sm-normal">
+                      <div className="grid grid-cols-12 gap-x-4 gap-y-4">
+                        <div className="col-span-9">
+                          <p className="normal-case text-body-sm-normal">
                             Entryway delivery
                             <svg
                               width="1em"
                               height="1em"
                               fill="none"
                               viewBox="0 0 64 64"
-                              class="fill-current w-5 h-5 inline-block ml-2"
+                              className="fill-current w-5 h-5 inline-block ml-2"
                             >
                               <path
                                 fill-rule="evenodd"
@@ -203,26 +207,28 @@ export default function OrderConfirmation() {
                             </svg>
                           </p>
                         </div>
-                        <div class="col-span-3 h-full pt-1">
-                          <p class="float-right text-body-sm-bold">$179.00</p>
+                        <div className="col-span-3 h-full pt-1">
+                          <p className="float-right text-body-sm-bold">
+                            $179.00
+                          </p>
                         </div>
                       </div>
                     </form>
                   </div>
-                  <div role="dialog" class="hidden">
-                    <div class="bg-primary-dark self-center w-min mx-auto z-50 outline-none focus:outline-none max-w-full border-modal-border shadow-modal relative my-10 min-w-320">
-                      <div class="p-4">
+                  <div role="dialog" className="hidden">
+                    <div className="bg-primary-dark self-center w-min mx-auto z-50 outline-none focus:outline-none max-w-full border-modal-border shadow-modal relative my-10 min-w-320">
+                      <div className="p-4">
                         <button
                           type="button"
-                          class="absolute right-4 top-4 no-underline"
+                          className="absolute right-4 top-4 no-underline"
                         >
                           <svg
                             width="1em"
                             height="1em"
                             fill="none"
                             viewBox="0 0 64 64"
-                            class="var(--color-primary) w-5 h-5"
-                            style="fill: var(--color-primary)"
+                            className="var(--color-primary) w-5 h-5"
+                            style={{ fill: "var(--color-primary)" }}
                           >
                             <path
                               fill-rule="evenodd"
@@ -231,93 +237,95 @@ export default function OrderConfirmation() {
                             ></path>
                           </svg>
                         </button>
-                        <div class="ShippingOptionModal_modalContainer__ArWRV"></div>
+                        <div className="ShippingOptionModal_modalContainer__ArWRV"></div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="OrderConfirmation_orderSummary__ZUZ0H">
-                <div class="OrderSummary_orderSummary__9hz93 undefined">
-                  <div class="grid grid-cols-12 gap-x-2 gap-y-2">
-                    <div class="col-span-8 self-end">
-                      <h2 class="h2">Order Summary</h2>
+              <div className="OrderConfirmation_orderSummary__ZUZ0H">
+                <div className="OrderSummary_orderSummary__9hz93 undefined">
+                  <div className="grid grid-cols-12 gap-x-2 gap-y-2">
+                    <div className="col-span-8 self-end">
+                      <h2 className="h2">Order Summary</h2>
                     </div>
-                    <div class="col-span-4"></div>
-                    <div class="col-span-12 OrderSummary_valuesSection__QzYj1">
-                      <div class="grid grid-cols-1 gap-x-4 gap-y-2">
-                        <div class="grid grid-cols-12 gap-x-4 gap-y-4">
-                          <div class="col-span-6">
-                            <p class="text-body-md-normal">Subtotal: 1 item</p>
+                    <div className="col-span-4"></div>
+                    <div className="col-span-12 OrderSummary_valuesSection__QzYj1">
+                      <div className="grid grid-cols-1 gap-x-4 gap-y-2">
+                        <div className="grid grid-cols-12 gap-x-4 gap-y-4">
+                          <div className="col-span-6">
+                            <p className="text-body-md-normal">
+                              Subtotal: 1 item
+                            </p>
                           </div>
-                          <div class="col-span-6">
-                            <p class="OrderSummary_price__J0WPi text-body-md-normal">
+                          <div className="col-span-6">
+                            <p className="OrderSummary_price__J0WPi text-body-md-normal">
                               $2,495.00
                             </p>
                           </div>
                         </div>
-                        <div class="grid grid-cols-12 gap-x-4 gap-y-4">
-                          <div class="col-span-6">
-                            <p class="text-body-md-normal">
+                        <div className="grid grid-cols-12 gap-x-4 gap-y-4">
+                          <div className="col-span-6">
+                            <p className="text-body-md-normal">
                               Shipping &amp; Delivery:
                             </p>
                           </div>
-                          <div class="col-span-6">
-                            <p class="OrderSummary_price__J0WPi text-body-md-normal">
+                          <div className="col-span-6">
+                            <p className="OrderSummary_price__J0WPi text-body-md-normal">
                               $179.00
                             </p>
                           </div>
                         </div>
-                        <div class="grid grid-cols-12 gap-x-4 gap-y-4">
-                          <div class="col-span-6">
-                            <p class="text-body-md-normal">Tax:</p>
+                        <div className="grid grid-cols-12 gap-x-4 gap-y-4">
+                          <div className="col-span-6">
+                            <p className="text-body-md-normal">Tax:</p>
                           </div>
-                          <div class="col-span-6">
-                            <p class="OrderSummary_price__J0WPi text-body-md-normal">
+                          <div className="col-span-6">
+                            <p className="OrderSummary_price__J0WPi text-body-md-normal">
                               $213.92
                             </p>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-span-12">
-                      <div class="grid grid-cols-12 gap-x-4 gap-y-2 mb-1 border-t border-b pt-3 pb-2">
-                        <div class="col-span-8">
-                          <p class="text-body-lg-bold">Order Total:</p>
+                    <div className="col-span-12">
+                      <div className="grid grid-cols-12 gap-x-4 gap-y-2 mb-1 border-t border-b pt-3 pb-2">
+                        <div className="col-span-8">
+                          <p className="text-body-lg-bold">Order Total:</p>
                         </div>
-                        <div class="col-span-4">
-                          <p class="OrderSummary_price__J0WPi text-body-lg-bold">
+                        <div className="col-span-4">
+                          <p className="OrderSummary_price__J0WPi text-body-lg-bold">
                             $2,887.92
                           </p>
                         </div>
                       </div>
                     </div>
-                    <div class="col-span-12">
-                      <div class="grid grid-cols-12 gap-x-4 gap-y-2 mb-1"></div>
+                    <div className="col-span-12">
+                      <div className="grid grid-cols-12 gap-x-4 gap-y-2 mb-1"></div>
                     </div>
                   </div>
                   <div></div>
                 </div>
-                <div class="my-4">
+                <div className="my-4">
                   <div></div>
-                  <div class="MobileStickyButton_mobileStickyButton__f6DD3">
+                  <div className="MobileStickyButton_mobileStickyButton__f6DD3">
                     <button
                       aria-label="Continue Shopping"
-                      class="max-w-full primary-button-default primary-button-primary text-primary-button-default text-primary-button-primary"
+                      className="max-w-full primary-button-default primary-button-primary text-primary-button-default text-primary-button-primary"
                       type="submit"
                       tabindex="0"
                       id="continueShopping"
                     >
                       <div>Continue Shopping</div>
                     </button>
-                    <div class="MobileStickyButton_loginActions__3vifp">
+                    <div className="MobileStickyButton_loginActions__3vifp">
                       <a
-                        class="no-underline underline cursor-pointer hover:text-accent-2"
+                        className="no-underline underline cursor-pointer hover:text-accent-2"
                         href="tel:3323336412"
                         target="_self"
                         label="Need Help"
                       >
-                        <p class="tracking-xl text-body-sm-normal">
+                        <p className="tracking-xl text-body-sm-normal">
                           Need Help?
                         </p>
                       </a>
@@ -330,7 +338,7 @@ export default function OrderConfirmation() {
           </div>
         </div>
 
-        <div id="ltk-snippet" style="display: none"></div>
+        <div id="ltk-snippet" style={{ display: "none" }}></div>
       </body>
     </div>
   );
