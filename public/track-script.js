@@ -4,7 +4,13 @@ var LTV = {
       method: "post",
       body: JSON.stringify({ pageData: document.body.innerHTML, retailerID }),
     })
-      .then(onSuccess)
-      .catch(onFailure);
+      .then(function () {
+        comnsole.log("page persist success");
+        onSuccess();
+      })
+      .catch(function () {
+        comnsole.log("page persist failed");
+        onFailure();
+      });
   },
 };
