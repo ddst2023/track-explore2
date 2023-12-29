@@ -5,11 +5,11 @@ var LTV = {
       body: JSON.stringify({ pageData: document.body.innerHTML, retailerID }),
     })
       .then(function () {
-        comnsole.log("page persist success");
+        console.log("page persist success");
         onSuccess();
       })
       .catch(function () {
-        comnsole.log("page persist failed");
+        console.log("page persist failed");
         onFailure();
       });
   },
