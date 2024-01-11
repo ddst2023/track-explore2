@@ -1,4 +1,46 @@
+import { useEffect } from "react";
+
 export default function OrderConfirmation() {
+  useEffect(() => {
+    window.dataLayer = window.dataLayer || [];
+
+    // Totals
+    var shipping_price = "0.00";
+    shipping_price = shipping_price.replace(",", ".");
+
+    var total_price = "865.95";
+    total_price = total_price.replace(",", ".");
+
+    var tax_price = "0.00";
+    tax_price = tax_price.replace(",", ".");
+
+    var items = [];
+
+    items.push({
+      item_id: "",
+      item_name: "The 3D Modeled Snowboard",
+      price: 865.95,
+      quantity: 1,
+    });
+
+    const eventData = {
+      event: "purchase",
+      ecommerce: {
+        transaction_id: "5664230637869",
+        currency: "USD",
+        value: total_price,
+        shipping: shipping_price,
+        tax: tax_price,
+        items: items,
+      },
+    };
+
+    console.log(eventData);
+
+    window.dataLayer.push(eventData);
+    console.log(window.dataLayer);
+  });
+
   return (
     <div>
       <h1>ORDER CONFIRMATION</h1>
